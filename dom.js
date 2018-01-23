@@ -47,10 +47,10 @@ var $ = function(sel){
     var toggleClass = function(className) {
         for (var i = 0; i < elem.length; i++){
             if(elem[i].className.includes(className)) {
-                elem[i].classlist.remove(className);
+                elem[i].classList.remove(className);
                 }
             else {
-                elem[i].classlist.add(className);
+                elem[i].classList.add(className);
                 }
     }
     }   
